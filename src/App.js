@@ -1,12 +1,14 @@
 import logo from "./logo.svg";
-import "./App.css";
+// import "./App.css";
 import Counter from "./Counter";
 import DataFetching from "./DataFetching";
+import Navbar from "./Navbar";
+import "./styles.css"
 
 function App() {
   return (
     <div className="App">
-      <h1>React Hooks Examples</h1>
+      <Navbar/>
       <Counter />
       <DataFetching/>
     </div>
